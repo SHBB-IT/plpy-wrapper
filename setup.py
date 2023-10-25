@@ -4,7 +4,7 @@ setup(
     name="plpy-wrapper",
     version="0.1",
     packages=["plpy_wrapper"],
-    python_requires=">=3.7, <=3.8",
+    python_requires=">=3.7,",
     extras_require={
         "docs": [
             "sphinx",

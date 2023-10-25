@@ -84,17 +84,12 @@ However the package gets installed, it must end up in the [Python Path](https://
 The way the embedded Python interpreter running inside of the Postgres runtime knows how to access outside Python packages (such as this one), is through the Python Path.
 So however you install this package, make sure it ends up on the Python Path.
 
-The two easiest ways to install plpy-wrapper are through pip
-
-Using pypi
-```shell script
-pip install plpy-wrapper
-```
+The easiest ways to install plpy-wrapper are through pip
 
 Using github
 
 ```shell script
-pip install git+https://github.com/skamensky/plpy-wrapper
+pip install git+https://github.com/SHBB-IT/plpy-wrapper.git
 ```
 
 #### How to use
